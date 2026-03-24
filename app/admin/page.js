@@ -218,12 +218,20 @@ export default function AdminPage() {
     <div className="max-w-4xl mx-auto p-6">
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold">开发者管理页面</h1>
-        <a 
-          href="/login"
-          className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 text-sm font-medium"
-        >
-          开发者登录
-        </a>
+        <div className="flex space-x-2">
+          <a 
+            href="/admin/ads"
+            className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 text-sm font-medium"
+          >
+            广告管理
+          </a>
+          <a 
+            href="/login"
+            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 text-sm font-medium"
+          >
+            开发者登录
+          </a>
+        </div>
       </div>
       
       {/* 创建题目表单 */}

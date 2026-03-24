@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export function middleware(request) {
   // 定义活动时间范围
   const startTime = new Date('2026-03-01T00:00:00Z')
-  const endTime = new Date('2026-04-01T00:00:00Z')
+  const endTime = new Date('2028-01-01T00:00:00Z')
   const currentTime = new Date()
 
   // 检查当前时间是否在活动时间段内
